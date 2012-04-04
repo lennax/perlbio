@@ -14,4 +14,4 @@ The following files have sample input and output located in `data/`:
 
 `test_hydrophobic.pl` calls a package that finds the most hydrophobic sequences in a protein. It depends on `Hydrophobic.pm` and `Tmstat.pm`.
 
-    Another project around the same time used CGI to perform batch BLAST searches of a given sequence against multiple genomes. However, it was a group project so I lack authorization to upload it to github.
+*Another project around the same time used CGI to perform batch BLAST searches of a given sequence against multiple genomes. However, it was a group project so I lack authorization to upload it to github.*
