@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Perlbio by lennax</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Perlbio</h1>
+        <p>Perl bioinformatics exercises</p>
+        <p class="view"><a href="https://github.com/lennax/perlbio">View the Project on GitHub <small>lennax/perlbio</small></a></p>
+        <ul>
+          <li><a href="https://github.com/lennax/perlbio/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lennax/perlbio/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lennax/perlbio">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Written in 2011 by Lenna X. Peterson</p>
+
+<p><code>dna_test.pl</code> attempts to guess whether a sequence is DNA or RNA. It depends on <code>seq_func.pl</code>.</p>
+
+<p>The following files have sample input and output located in <code>data/</code>:</p>
+
+<p><code>read_fasta.pl</code> reads a multi-record FASTA file and outputs a list of sequence names and lengths.</p>
+
+<p><code>translate_fasta.pl</code> reads a FASTA file and outputs the 6 possible translations (3 reading frames, forward and reverse complement).</p>
+
+<p><code>pdb_distance.pl</code> reads a PDB file of a molecule complexed with ADP and outputs a list of every atom within 6 angstroms of the ADP.</p>
+
+<p><code>test_hydrophobic.pl</code> calls a package that finds the most hydrophobic sequences in a protein. It depends on <code>Hydrophobic.pm</code> and <code>Tmstat.pm</code>.</p>
+
+<p><em>Another project around the same time used CGI to perform batch BLAST searches of a given sequence against multiple genomes. However, it was a group project so I lack authorization to upload it to github.</em></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lennax">lennax</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
