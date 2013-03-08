@@ -1,6 +1,7 @@
 ## Perl bioinformatics exercises ##
 
-Written in 2011 by Lenna X. Peterson
+Copyright 2011 Lenna X. Peterson
+arklenna@gmail.com
 
 `dna_test.pl` attempts to guess whether a sequence is DNA or RNA. It depends on `seq_func.pl`.
 
